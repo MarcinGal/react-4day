@@ -32,4 +32,10 @@ class Counter extends React.Component {
     }
 }
 
+Counter.defaultProps = {
+    startValue: 0,
+    min: -5,
+    max: 5
+}
+
 export default Counter
