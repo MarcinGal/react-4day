@@ -35,12 +35,12 @@ class Users extends React.Component {
                             :
                             this.state.users &&
                             this.state.users.map &&
-                                this.state.users.map((user) => (
-                                    <div
-                                        key={user.login.uuid}>
-                                        {user.name.first} {user.name.last}
-                                    </div>
-                                ))
+                            this.state.users.map((user) => (
+                                <div
+                                    key={user.login.uuid}>
+                                    {user.name.first} {user.name.last}
+                                </div>
+                            ))
                 }
             </div>
         )

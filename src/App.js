@@ -3,6 +3,7 @@ import Counter from './Counter'
 import Form from './Form'
 import SecondForm from './SecondForm'
 import Users from './Users'
+import Users2 from './Users2'
 const App = (props) => (
     <div>
         <Counter
@@ -16,6 +17,7 @@ const App = (props) => (
          <SecondForm
          />
          <Users/>
+         <Users2/>
     </div>
 )
 
