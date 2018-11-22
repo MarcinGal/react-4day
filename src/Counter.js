@@ -27,6 +27,17 @@ class Counter extends React.Component {
                 <button
                     onClick={this.decHandler}>-
                 </button>
+                <div>
+                    {
+                        this.state.number === this.props.min ?
+                        'Lower range exceeded!'
+                        :
+                        this.state.number === this.props.max ?
+                        'Upper range exceeded!'
+                        :
+                        null
+                    }
+                </div>
             </div>
         )
     }
