@@ -1,6 +1,7 @@
 import React from 'react'
 import Counter from './Counter'
 import Form from './Form'
+import SecondForm from './SecondForm'
 const App = (props) => (
     <div>
         <Counter
@@ -8,10 +9,12 @@ const App = (props) => (
             // min={-10}
             // max={10}
         />
-         <Form 
+         <Form
+         />
+
+         <SecondForm
          />
     </div>
-   
 )
 
 export default App
